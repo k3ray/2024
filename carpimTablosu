@@ -1,0 +1,13 @@
+for (int i = 1; i < 10; i++)
+{
+    int sayi1 = i;
+
+    for (int j = 1; j < 10; j++)
+    {
+        int carpim = j * sayi1;
+
+        Console.Write("{0}*{1} = {2}\t\n",sayi1, j,carpim);
+    }
+    Console.WriteLine();
+}
+Console.ReadLine();
